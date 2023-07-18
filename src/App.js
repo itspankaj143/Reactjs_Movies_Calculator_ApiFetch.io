@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Gallery from "./components/Gallery";
+import PageNotFound from "./components/PageNotFound";
+import Navbar from "./components/Navbar";
+import Services from "./components/Services";
+import Api from "./components/Api";
+import Form from "./components/Form";
+import Movies from "./components/Movies";
+
+import Calculator from "./Caculator/Calculator";
+import ToDOList from "./TODOLIST/ToDOList";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />}>
+            <Route path="/about/contact" element={<Contact />} />
+          </Route>
+
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/form" element={<Form />} />
+          <Route path="/service" element={<Services />} />
+          <Route path="/api" element={<Api />} />
+          <Route path="/movies" element={<Movies />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/todolist" element={<ToDOList />} />
+          <Route path="*" element={<PageNotFound />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
