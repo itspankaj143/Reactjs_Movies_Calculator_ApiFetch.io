@@ -1,3 +1,15 @@
+## About Section which is nesting with Routing Having Routing from Reactjs
+![Screenshot_20230718_210038](https://github.com/itspankaj143/Reactjs_Movies_Calculator_ApiFetch.io/assets/124787647/5b0b8d43-c0b0-41af-bf8e-8586b172aff6)
+![Screenshot_20230718_210053](https://github.com/itspankaj143/Reactjs_Movies_Calculator_ApiFetch.io/assets/124787647/47d7c614-6a81-46c5-92f2-5ccd7a4bdc64)
+## API Fetching 
+![Screenshot_20230718_210108](https://github.com/itspankaj143/Reactjs_Movies_Calculator_ApiFetch.io/assets/124787647/791359e5-7b30-4706-b7ba-a4246834c246)
+## Form Handling
+![Screenshot_20230718_210124](https://github.com/itspankaj143/Reactjs_Movies_Calculator_ApiFetch.io/assets/124787647/9f1d05c0-abf3-4b72-ac3d-dfeb5fca5da1)
+## Fetching Movies DataBase 
+![Screenshot_20230718_210143](https://github.com/itspankaj143/Reactjs_Movies_Calculator_ApiFetch.io/assets/124787647/40d9be28-032d-4c45-815a-18a12f5aa1af)
+## Calculator
+![Screenshot_20230718_210215](https://github.com/itspankaj143/Reactjs_Movies_Calculator_ApiFetch.io/assets/124787647/f028b8ee-e6f8-47ad-b46e-0ad574e5edca)
+![Screenshot_20230718_210226](https://github.com/itspankaj143/Reactjs_Movies_Calculator_ApiFetch.io/assets/124787647/720a3d81-f045-4392-8afc-b43a1337d22e)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
